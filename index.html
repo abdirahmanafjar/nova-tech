@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nova Tech</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./favicon.html" />
   </head>
   <body>
     <header class="header">
       <!-- Logo -->
-      <a href="#" class="logo">
+      <a href="#home" class="logo">
         <span class="logo-icon">N</span>
         <span class="logo-name">Nova<span>Tech</span></span>
       </a>
@@ -18,7 +25,7 @@
       <nav class="navbar">
         <ul class="nav-links">
           <li>
-            <a href="#" class="active">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
             <a href="#">Courses</a>
@@ -30,7 +37,7 @@
             <a href="#">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -86,6 +93,160 @@
               <span class="stat-number">95%</span>
               <span class="stat-label">Completiin Rate</span>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <div class="section-heading">
+          <span class="section-badge">ACADEMY SUPPORT</span>
+          <h2>Let's Build the <span>Future Together</span></h2>
+          <p>
+            Have a question about our courses, mentorship, or programs? Our team
+            is here to help you take the next step.
+          </p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-column">
+            <div class="contact-info">
+              <div class="contact-header">
+                <span class="contact-badge">GET IN TOUCH</span>
+                <h3>Let's Talk</h3>
+                <p>
+                  Whether you're starting your tech journey or looking to level
+                  up your skills, we'd love to hear from you.
+                </p>
+              </div>
+
+              <div class="contact-details">
+                <div class="contact-item">
+                  <span class="icon">⌖</span>
+                  <div>
+                    <strong>Visit Our Academy</strong>
+                    <p>Tech City, Somalia</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <span class="icon">☎</span>
+                  <div>
+                    <strong>Call Us</strong>
+                    <p>+252 61 2345678</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <span class="icon">✉</span>
+                  <div>
+                    <strong>Email Us</strong>
+                    <p>hello@novatech.com</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <span class="icon">◷</span>
+                  <div>
+                    <strong>Student Support</strong>
+                    <p>Monday – Friday, 8:00 AM – 6:00 PM</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="support-box">
+                <div class="support-icon">?</div>
+
+                <div>
+                  <strong>Need Help Choosing a Course?</strong>
+                  <p>Not sure where to start? Talk to our academic team.</p>
+                  <a href="#courses">Explore Learning Paths →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-column">
+            <form class="contact-form">
+              <div class="form-header">
+                <span>CONTACT NOVATECH</span>
+                <h3>Start Your Learning Journey</h3>
+                <p>
+                  Tell us a little about yourself and what you want to learn.
+                  We'll get back to you shortly.
+                </p>
+              </div>
+
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Your full name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" placeholder="+252 61..." />
+                </div>
+
+                <div class="form-group">
+                  <label for="interest">Interested In</label>
+
+                  <select id="interest" required>
+                    <option value="">Choose a learning path</option>
+                    <option>Cybersecurity</option>
+                    <option>Web Development</option>
+                    <option>Software Engineering</option>
+                    <option>Artificial Intelligence</option>
+                    <option>Data Science</option>
+                    <option>Electrical & Computer Engineering</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+
+                <div class="form-group full-width">
+                  <label for="experience">Experience Level</label>
+
+                  <select id="experience">
+                    <option value="">Select your level</option>
+                    <option>Complete Beginner</option>
+                    <option>Beginner</option>
+                    <option>Intermediate</option>
+                    <option>Advanced</option>
+                  </select>
+                </div>
+
+                <div class="form-group full-width">
+                  <label for="message"> Tell Us About Your Goals </label>
+
+                  <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="What do you want to learn or build?"
+                  ></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="contact-button">
+                <span>Send Message</span>
+                <span class="button-arrow">→</span>
+              </button>
+
+              <p class="form-note">
+                We'll use your information only to respond to your inquiry.
+              </p>
+            </form>
           </div>
         </div>
       </section>

@@ -1371,7 +1371,7 @@ OVERSIZED NOVATECH
   position: absolute;
   z-index: 1;
   left: 50%;
-  bottom: -125px;
+  bottom: 125px;
   transform: translateX(-50%);
   white-space: nowrap;
   pointer-events: none;
